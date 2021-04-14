@@ -24,6 +24,30 @@ package IO_;
 
                 ***流在使用完毕后切记关闭***
 
+
+文件专属:
+            java.io.FileInputstream
+            java.io.Fileoutputstream
+            java.io.FileReader
+            java.io.FileWriter
+转换流:（将字节流转换成字符流)
+            java.io.InputstreanReader
+            java.io.outputstreanwrite
+缓冲流专属:
+            java.io.BufferedReader
+            java.io.Bufferedwriter
+            java.io.BufferedInputstream
+            java.io.Bufferedoutputstream
+数据流专属:
+            java.io.DataInputstream
+            java.io.Dataoutputstream
+标准输出流:
+            java.io.Printwriter
+            java.io.Printstream
+对象专属流:
+            java.io.objectInputstream
+            java.io.0bjectoutputstream
+
  */
 public class IO_Test1 {
     public static void main(String[] args) {
